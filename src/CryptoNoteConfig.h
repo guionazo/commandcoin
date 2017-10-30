@@ -24,7 +24,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-const uint64_t MONEY_SUPPLY                                  = 84000000;
+const uint64_t MONEY_SUPPLY                                  = 8400000000000000;
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "CoMManDcoin";
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001c002029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018471f73f41e903b46b4eaa6172767607f6f28f612899a8966586e6eb24b38db3";
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff000187b4c1af77029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101501fba2a68829907edbadf724517dcd12c2b64d374bbb334997e9b2a659c4af1";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
