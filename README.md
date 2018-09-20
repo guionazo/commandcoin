@@ -2,6 +2,8 @@ CoMManDcoin V. 0.1
 
 Versión Alpha!
 
+Programa para Windows: http://www.equipo-z.net/CoMManDcoin.zip
+
 
 ## Building CryptoNote 
 
